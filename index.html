@@ -2,58 +2,64 @@
 <html>
 
 <head>
-  <title>Ваш сайт</title>
-  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <title>сайт</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style/reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
 </head>
 
 <body>
-  <div class="container__header">
-    <header class="header">
-      <div class="header__logo">
-        <img src="img/logo.png" alt="Логотип">
-      </div>
-      <nav class="nav">
-        <ul>
-          <li><a href="#about" class="nav__text">О НАС</a></li>
-          <li><a href="#trainers" class="nav__text">ТРЕНЕРЫ</a></li>
-          <li><a href="#membership" class="nav__text">АБОНЕМЕНТЫ</a></li>
-          <li><a href="#contact" class="nav__text">КОНТАКТЫ</a></li>
+  <header class="header">
+    <div class="container header__wrapper">
+      <img class="logo" src="img/logo.png" alt="">
+
+      <nav class="header__navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a class="navigation__list-link" href=""> О НАС</a>
+          </li>
+
+          <li class="navigation__list-item">
+            <a class="navigation__list-link" href=""> ТРЕНЕРЫ</a>
+          </li>
+
+          <li class="navigation__list-item">
+            <a class="navigation__list-link" href=""> АБОНЕМЕНТЫ</a>
+          </li>
+
+          <li class="navigation__list-item">
+            <a class="navigation__list-link" href="">КОНТАКТЫ</a>
+          </li>
+
         </ul>
       </nav>
-    </header>
-  </div>
-  <div class="container__body">
-    <div class="body_row">
-      <div class="row__body">
-        <img src="img/body.png" class="body" alt="Фотография 1">
-      </div>
-      <div class="row__text">
-        <h1 class="text__h1"> ПОСТРОЙ СВОЕ ТЕЛО </h1>
-      </div>
     </div>
-  </div>
-  <div class="section__text">
-    <div class="text__container">
-      <div class="text__lorem">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </p>
-      </div>
-      <button class="read__button">
-        <span class="button__text">ЧИТАТЬ ДАЛЕЕ</span>
-      </button>
+  </header>
+
+  <main class="main">
+    <div class="container main__wrapper">
+      <img class="wrapper__man" src="img/body.png" alt="">
+
+      <h1 class="main__title"> ПОСТРОЙ СВОЕ ТЕЛО </h1>
+
+      <p class="main__description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <a class="main__link" href="#"> ЧИТАТЬ ДАЛЕЕ </a>
+      </p>
+
     </div>
-  </div>
+
+  </main>
 </body>
 
 </html>
